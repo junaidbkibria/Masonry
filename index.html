@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- linking stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style1.css">
+    
+    <title>Jayed Corp</title>
+  </head>
+  <body>
+    <center><h1>Masonry with Flexbox</h1></center>
+    <div class="masonry masonry--h">
+      <!-- each item -->
+      <div class="masonry-brick masonry-brick--h">
+        <img class="masonry-img" src="images/i1.jpg" alt="Jayed Corp">
+      </div>
+      <!-- each item -->
+      <!-- each item -->
+      <div class="masonry-brick masonry-brick--h">
+        <img class="masonry-img" src="images/i2.jpg" alt="Jayed Corp">
+      </div>
+      <!-- each item -->
+      <div class="masonry-brick masonry-brick--h">
+        <img class="masonry-img" src="images/i3.jpg" alt="Jayed Corp">
+      </div>
+      <!-- each item -->
+
+      <!-- each item -->
+      <div class="masonry-brick masonry-brick--h">
+        <img class="masonry-img" src="images/i4.jpg" alt="Jayed Corp">
+      </div>
+      <!-- each item -->
+      <!-- each item -->
+      <div class="masonry-brick masonry-brick--h">
+          <img class="masonry-img" src="images/i5.jpg" alt="Jayed Corp">
+        </div>
+        <!-- each item -->
+        <!-- each item -->
+      <div class="masonry-brick masonry-brick--h">
+          <img class="masonry-img" src="images/i6.jpg" alt="Jayed Corp">
+        </div>
+        <!-- each item -->
+        <!-- each item -->
+      <div class="masonry-brick masonry-brick--h">
+          <img class="masonry-img" src="images/i7.jpg" alt="Jayed Corp">
+        </div>
+        <!-- each item -->
+        <!-- each item -->
+      <div class="masonry-brick masonry-brick--h">
+          <img class="masonry-img" src="images/i8.jpg" alt="Jayed Corp">
+        </div>
+        <!-- each item -->
+        <!-- each item -->
+      <div class="masonry-brick masonry-brick--h">
+          <img class="masonry-img" src="images/i9.jpg" alt="Jayed Corp">
+        </div>
+        <!-- each item -->
+        <!-- each item -->
+      <!-- <div class="masonry-brick masonry-brick--h">
+          <img class="masonry-img" src="images/i10.jpg" alt="Jayed Corp">
+        </div> -->
+        <!-- each item -->
+        <!-- each item -->
+      <div class="masonry-brick masonry-brick--h">
+          <img class="masonry-img" src="images/i11.jpg" alt="Jayed Corp">
+        </div>
+        <!-- each item -->
+        <!-- each item -->
+      <div class="masonry-brick masonry-brick--h">
+          <img class="masonry-img" src="images/i12.jpg" alt="Jayed Corp">
+        </div>
+        <!-- each item -->
+        <!-- each item -->
+      <div class="masonry-brick masonry-brick--h">
+          <img class="masonry-img" src="images/i13.jpg" alt="Jayed Corp">
+        </div>
+        <!-- each item -->
+    </div>
+    <!-- Masonry with plugin -->
+    <center><h1>Masonry with Plugin</h1></center>
+    <ul id="WS-LiSli" class="grid">
+        <li>
+            <img title="Title 1" src="https://source.unsplash.com/wYcIMh-l3TQ/1280x1960" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ">
+        </li>
+        <li>
+            <img title="Title 2" src="https://source.unsplash.com/p2Snr9Gr4rM/640x480" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ">
+        </li>
+        <li>
+            <img title="Title 3" src="https://source.unsplash.com/UjTJzW3ZI1I/640x480" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ">
+        </li>
+        <li>
+            <img title="Title 4" src="https://source.unsplash.com/12M-FwSWbs8/640x480" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ">
+        </li>
+        <li>
+            <img title="Title 5" src="https://source.unsplash.com/rFMcYqev_W0/640x470" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ">
+        </li>
+</ul>
+    
+
+
+
+
+
+   
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+   <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    <script src="js/lightbox.js"></script>
+    <script>
+      $(document).ready(function(){
+                 // lightbox
+   
+        $('#WS-LiSli').WS_lightbox_free({
+            'enable' : ['close', 'arrows'],
+            buttons : {
+                size          : 40,
+                style         : 'square', // ( default, square, circle, rounded )
+                color         : 'black',
+                color_icon    : 'white',
+                border_width  : 0,
+                border_color  : '',
+                opacity       : .5,
+                hover_opacity : 1
+            },
+            arrows : {
+                position      : 'attached', // ( inside, outside, attached )
+                style         : 'svelt', // (default, square, circle, rounded, svelt)
+                icon_style    : 'angle', // (default, caret, angle, chevron)
+                icon_size     : 20,
+                opacity       : .5,
+                hover_effect  : 'shrink', // (zoom, shrink, translate)
+                hover_opacity : .8
+            },
+            image : {
+                border_radius : 0,
+                border_color : '',
+                border_width : 0,
+                bg : 'none'
+            },
+            background : {
+                filter : 'image',
+                opacity : .5
+            },
+            display_velocity : 'low',
+            slide_velocity : 'fast'
+        });
+
+   
+    // lightbox
+      }
+       
+    
+    </script>
+    
+  </body>
+</html>
